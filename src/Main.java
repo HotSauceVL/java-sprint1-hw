@@ -35,7 +35,7 @@ public class Main {
 
     public static int getUserIntInput(){
         Scanner scanner = new Scanner(System.in);
-        return scanner.nextInt();
+        return  scanner.nextInt();
     }
 
     public static int checkSteps(int steps){
@@ -81,7 +81,7 @@ public class Main {
     }
 
     public static String getMonth(int monthNumber){
-        String [] monthName = {"Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Октябрь", "Декабрь"};
+        String [] monthName = {"Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"};
         return monthName[monthNumber];
     }
 }
